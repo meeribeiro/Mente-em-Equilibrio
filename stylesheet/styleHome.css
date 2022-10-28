@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.70),rgba(0,0,0,0.85)), url('./../assets/c.png');
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    justify-content:center;
+    margin: 0 auto;
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+li{
+    list-style: none;
+    margin-left: 15px;
+}
+.logo-title{
+    font-weight: 800;
+    font-size: 25px;
+    color: #ffffff;
+}
+.color-theme{
+    color:rgba(119, 189, 255, 0.87);
+}
+.container{
+    width: 90%;
+    position: absolute;
+    max-width: 1600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container2{
+    width: 90%;
+    position: absolute;
+    max-width: 1600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-nav{
+    color:#ffffff;
+    text-decoration: none;
+    transition: 1s;
+    cursor: pointer;
+}
+.item-nav:hover{
+    color: rgb(119, 189, 255);
+    transition: 0.5s;
+}
+
+.text-main{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    margin-top: 200px;
+    color:#ffffff;
+    text-align: center;
+}
+main .container{
+    width: 100%;
+}
+
+.desc-main{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding-top: 90px;
+    color:#ffffff;
+    text-align: center;
+    font-size: 17px;
+}
+
+.btn{
+    background-color: rgba(119, 189, 255, 0.781);
+    border: none;
+    padding: 15px 50px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    border-radius: 7px;
+    margin-top: 40px;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(119, 189, 255);
+    transition: 1s;
+}
+.btn-main{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width:150px;
+    cursor:pointer;
+    margin-top: 40px;
+}
+.footer p{
+    color: #ffffff;
+}
+

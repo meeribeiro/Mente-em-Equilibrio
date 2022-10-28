@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: #f2f2f2;
+    background-size: cover;
+    background: #f2f2f2 bottom center fixed no-repeat url('./../assets/menu.png');
+}
+
+main {
+   
+        width:100%;
+        height:100vh;
+        background-image:linear-gradient(rgba(37, 35, 35),rgba(37, 35, 35)),url(imagens/inicio.png);
+        background-size:cover;
+        background-position:center;
+        font-size:13px;
+  
+}
+
+a {
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+main section {
+    margin: 100px 0 0 60px;
+}
+
+.informations h6 {
+    color: #ffffff;
+}
+
+
+
+.emphasis {
+    color: #69c4f8;
+    font-weight: 700 !important;
+}
+
+
+.buttons {
+    
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.buttons button {
+    border: none;
+    color: #f2f2f2;
+    padding: 10px 50px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 25px 10px;
+    border-radius: 2rem;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.buttons button:first-child:hover {
+    background-color: #1b1b1b;
+}
+.buttons button:last-child:hover {
+    background-color: #69c4f8;
+}
+
+.buttons button:first-child {
+    background-color: #2d2d2e;
+}
+.buttons button:last-child {
+    background-color:#69c4f8;
+}
+.table{
+    color: rgb(16, 110, 187);
+    background-color: #ffffff;
+  }
+.table th{
+    color: rgb(16, 110, 187) ;
+}
+  h1{
+    color: aliceblue;
+  }
+  p{
+    color: aliceblue;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+  }
+  .acao a{
+      text-decoration: none;
+      
+  }
+  .acao a:link {
+    text-decoration: none;
+    color: red;
+   }
+   
+   .acao a:hover {
+    text-decoration: underline;
+    color: rgb(160, 57, 57);
+   }
+
+
+

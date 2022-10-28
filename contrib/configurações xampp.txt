@@ -1,0 +1,22 @@
+configurações php.ini
+
+Configurar servidor SMTP
+SMTP=smtp.gmail.com
+smtp_port=587
+
+sendmail_from = "colocar email que será usado para enviar as mensagens"
+
+sendmail_path = "Caminho do sendmail.exejunto com  parametros  ex: "\"c:\xampp\sendmail\sendmail.exe \" -t"
+
+configurações sendmail.ini
+
+smtp_server=smtp.gmail.com
+smtp_port=587
+auth_username= seu usuario de email
+auth_password= sua senha do email
+
+force_sender= mesmail email de usuario
+hostname=localhost
+
+CONFIGURAÇÕES DO GMAIL
+liberar o acesso a app menos seguro -> https://myaccount.google.com/lesssecureapps
