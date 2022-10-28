@@ -1,8 +1,10 @@
-# Mente em Equilibrio
+# Mente em Equilibrio - Meu trabalho apresentado como TCC do curso técnico em informática.
 
-![Logo Mente em Equilibrio](https://raw.githubusercontent.com/clebersfonseca/menteEmEquilibrio/main/assets/logo2.png)
+![image](https://user-images.githubusercontent.com/88556924/198750369-c0d6f6ff-3d01-48d4-8a61-f9d35e538305.png)
 
-Me trabalho apresentado como TCC do curso técnico em informática.
+A plataforma web Mente em Equilíbrio consiste em realizar agendamentos online com
+a psicóloga Maria Danielle Figueira Tavares, possibilitando que os seus pacientes realizem agendamentos online e com segurança por causa da pandemia COVID-19, de
+elevada transmissibilidade e de distribuição global.
 
 ## Montagem do servidor
 
